@@ -83,19 +83,6 @@ export default function Hero() {
           animationDelay: '-9s',
         }}
       />
-      {/* floating product render */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute right-[4%] top-[16%] -z-10 hidden w-48 animate-float-slow opacity-70 blur-[1px] lg:block xl:w-60"
-      >
-        <Img
-          name="hero/home-hero-product-image"
-          alt=""
-          fit="contain"
-          className="h-full w-full drop-shadow-2xl"
-        />
-      </div>
-
       <div className="pt-3">
         <ReviewsTicker />
       </div>
