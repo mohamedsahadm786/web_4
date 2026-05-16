@@ -24,7 +24,13 @@ export default function ContactSection() {
             {/* banner image */}
             <div className="absolute inset-0" aria-hidden>
               <Img name="extra/E_3" alt="" className="h-full w-full" />
-              <div className="absolute inset-0 bg-gradient-to-r from-ink/92 via-ink/75 to-ink/40" />
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    'linear-gradient(100deg, hsl(var(--ink) / 0.95) 0%, hsl(var(--ink) / 0.88) 42%, hsl(var(--ink) / 0.68) 100%)',
+                }}
+              />
             </div>
 
             <div className="relative grid gap-8 p-8 sm:p-12 lg:grid-cols-[1.1fr_1fr] lg:p-16">
