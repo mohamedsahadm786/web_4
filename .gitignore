@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vite
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.DS_Store
+.playwright-mcp
+
+# local-only analysis & QA screenshots (root level)
+/*.jpeg
+/*.jpg
+/*.png
